@@ -6,7 +6,7 @@ Projeto académico inspirado no filme *Forrest Gump*.
 ---
 
 ## 🎮 Demo Online
-🔗 *[Adicionar mais tarde o link quando ativar o GitHub Pages]*
+🔗 *[https://beatrizsscarvalho.github.io/run-forest-run/]*
 
 ---
 
@@ -24,8 +24,75 @@ Projeto académico inspirado no filme *Forrest Gump*.
 ---
 
 ## 🚀 Como Jogar
-Basta abrir o ficheiro `index.html` num browser ou jogar online.
+Este é um guia simples para qualquer pessoa conseguir jogar o teu jogo.
 
+🎮 Como começar
+Abre o jogo no navegador.
+No menu inicial, clica em Jogar ou pressiona Enter.
+A música só começa após a primeira interação (tecla ou clique).
+
+
+🧭 Menu Inicial
+Jogar → inicia o Nível 1.
+
+⚙️ Configurações → ligar/desligar música e efeitos sonoros.
+
+Navegação nas opções: ↑ / ↓
+Confirmar/alternar: Enter
+Voltar ao menu: Esc
+
+
+⭐ NÍVEL 1 — Ping-Pong
+🎯 Objetivo
+Rebater a bola 15 vezes sem a deixar sair do campo.
+
+🎮 Controlo
+↑ / ↓ → mover Forrest verticalmente.
+
+🏆 Vitória
+Aparece “Parabéns! Venceste o Nível 1” + botão Nível 2.
+
+❌ Derrota
+Se a bola sai do campo → “Perdeste o Nível 1” + botão Recomeçar.
+
+
+⭐ NÍVEL 2 — Pesca
+🎯 Objetivo
+Apanhar 15 camarões antes que o tempo (60 s) acabe.
+
+🎮 Controlo
+↑ / ↓ / ← / → → mover o barco.
+Espaço → apanhar camarão quando estiver por cima dele.
+
+🏆 Vitória
+15 capturas → “Venceste o Nível 2” + botão Nível 3.
+❌ Derrota
+O tempo acaba antes das 15 capturas → “Recomeçar Nível 2”.
+
+⭐ NÍVEL 3 — Corrida
+🎯 Objetivo
+Chegar à meta antes dos 30 segundos.
+
+🎮 Controlo
+← / → → correr.
+Espaço → saltar (só funciona no chão).
+
+🏆 Vitória
+Chegas à meta → “Venceste o Nível 3”.
+
+❌ Derrota
+O tempo chega a 0 → “Recomeçar Nível 3”.
+
+🔊 Som e Música
+Podes ativar/desativar música e efeitos sonoros no menu de Configurações.
+
+
+🔁 Botões de Transição
+Depois de cada nível, aparecem botões HTML para avançar ou recomeçar:
+Recomeçar Nível 1 / 2 / 3
+Nível 2
+Nível 3
+Estes botões não recarregam a página — apenas mudam o estado do jogo.
 ---
 
 ## 📘 Notas
