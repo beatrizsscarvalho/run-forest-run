@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#game-container { position: relative; width:800px; height:600px; }
+
+/* classe comum aos teus botões */
+.btn-jogo {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  background: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font: bold 20px Arial, sans-serif;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+/* e posiciona cada um em alturas diferentes */
+#btn-play-again     { bottom: 100px; left:50%; transform:translateX(-50%); }
+#btn-creditos-final { bottom:  20px; left:50%; transform:translateX(-50%); }
+#btn-gameover       { bottom:  20px; left:50%; transform:translateX(-50%); }
+canvas {
+  border: 2px solid white;
+}

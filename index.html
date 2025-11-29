@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Run, Forrest, Run!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container" style="position: relative; width: 800px; height: 600px;">
+    <!-- único canvas -->
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <!-- Botões sobrepostos ao mesmo canvas -->
+    <button id="btn-recomecar1"
+            style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);padding:10px 20px;font-size:18px;display:none">
+      Recomeçar Nível 1
+    </button>
+
+    <button id="btn-recomecar2"
+            style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);padding:10px 20px;font-size:18px;display:none">
+      Recomeçar Nível 2
+    </button>
+
+    <button id="btn-recomecar3"
+            style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);padding:10px 20px;font-size:18px;display:none">
+      Recomeçar Nível 3
+    </button>
+
+    <button id="btn-nivel2"
+        style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);padding:10px 20px;font-size:18px;display:none;z-index:10">
+  Nível 2
+</button>
+
+
+    <button id="btn-nivel3"
+            style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);padding:10px 20px;font-size:18px;display:none">
+      Nível 3
+    </button>
+
+    <!-- Botões de final de jogo -->
+    <button id="btn-gameover"
+            style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);padding:10px 20px;font-size:18px;display:none">
+      Game Over
+    </button>
+
+    <button id="btn-play-again"
+            class="btn-jogo"
+            style="position:absolute;bottom:80px;left:50%;transform:translateX(-50%);display:none">
+      Jogar Novamente
+    </button>
+
+    <button id="btn-creditos-final"
+            class="btn-jogo"
+            style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);display:none">
+      Créditos
+    </button>
+  </div>
+
+  <!-- Scripts devem vir depois de todo o HTML -->
+  <script src="main.js"></script>
+  <script src="nivel1.js"></script>
+  <script src="nivel2.js"></script>
+  <script src="nivel3.js"></script>
+</body>
+</html>
